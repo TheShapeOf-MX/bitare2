@@ -1,0 +1,88 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "4qcWoSxrn59wXQS6k2cu6i",
+      "projectApiToken": "I7O8GoLos9kpE9pMS79A9T9WLUukjQyheDHp7jBQHXDeGvNBMsHTWysqx0eDw5iiwb2XpP9FSWLvUaIcLFBPw",
+      "projectName": "Bitare",
+      "version": "latest",
+      "cssFilePath": "plasmic/bitare/plasmic_bitare.module.css",
+      "components": [
+        {
+          "id": "_3ONzhp7lS",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "4qcWoSxrn59wXQS6k2cu6i",
+          "renderModuleFilePath": "plasmic/bitare/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/bitare/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "ob4EAA9VPDQ",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/bitare/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "-RK0LztH4VZ",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/bitare/icons/PlasmicIcon__Icon2.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "aL0URPzXvC4",
+          "name": "image.png",
+          "filePath": "../public/plasmic/bitare/images/imagepng.jpeg"
+        },
+        {
+          "id": "nQmVf7XZw",
+          "name": "Bitare.png",
+          "filePath": "../public/plasmic/bitare/images/bitarepng.png"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "xppZD2arzCx",
+        "name": "Screen",
+        "projectId": "4qcWoSxrn59wXQS6k2cu6i",
+        "contextFilePath": "plasmic/bitare/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.167",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.167/dist/plasmic.schema.json"
+}
